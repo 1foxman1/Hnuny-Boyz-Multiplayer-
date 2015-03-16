@@ -13,5 +13,5 @@ conn, addr = s.accept()
 print "Connection Address:" , addr
 while data != "exit":
     data = conn.recv(BUFFER_SIZE)
-
+    print data
 conn.close()
