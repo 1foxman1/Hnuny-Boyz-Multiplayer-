@@ -1,1 +1,2 @@
 C:\Users\idan\Documents\GitHub\HnunyBoyz\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\WindowsGame1Content.contentprojResolveAssemblyReference.cache
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1Content\obj\x86\Debug\WindowsGame1Content.contentprojResolveAssemblyReference.cache

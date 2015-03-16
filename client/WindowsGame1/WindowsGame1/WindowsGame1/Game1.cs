@@ -22,6 +22,7 @@ namespace WindowsGame1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -29,12 +30,13 @@ namespace WindowsGame1
         }
 
         //Connection
-        const int port = 3456;
-        const string ip = "25.164.130.160";
+        const int port = 3334;
+        const string ip = "25.86.198.77";
         IPEndPoint ipEnd = new IPEndPoint(IPAddress.Parse(ip), port);
         Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-        
+        int prevX;
+
 
         private Block block;
 
@@ -55,6 +57,8 @@ namespace WindowsGame1
             block = new Block(100, 100);
             block.LoadContent(Content);
 
+            prevX = block.X;
+
         }
 
         protected override void UnloadContent()
@@ -71,15 +75,28 @@ namespace WindowsGame1
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
                 block.X += 2;
-                byte [] msg = Encoding.Default.GetBytes(block.X.ToString());
-                socket.Send(msg, 0, msg.Length, 0);
-
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
                 block.X -= 2;
             }
-            
+            if (Keyboard.GetState().IsKeyDown(Keys.W))
+            {
+                block.Y -= 2;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                block.Y += 2;
+            }
+
+            if(prevX != block.X)
+            {
+                byte[] msg = Encoding.Default.GetBytes(block.Location.X.ToString());
+                socket.Send(msg);
+
+                prevX = block.X;
+            }
+
 
             // TODO: Add your update logic here
 

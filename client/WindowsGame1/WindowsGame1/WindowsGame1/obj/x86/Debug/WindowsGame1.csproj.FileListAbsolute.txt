@@ -5,3 +5,10 @@ C:\Users\idan\Documents\GitHub\HnunyBoyz\WindowsGame1\WindowsGame1\WindowsGame1\
 C:\Users\idan\Documents\GitHub\HnunyBoyz\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
 C:\Users\idan\Documents\GitHub\HnunyBoyz\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
 C:\Users\idan\Documents\GitHub\HnunyBoyz\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\hungary.xnb
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\hungary.xnb
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.csprojResolveAssemblyReference.cache
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\Users\idan\Documents\XNA GAMES\Hnuny-Boyz-Multiplayer-\client\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
