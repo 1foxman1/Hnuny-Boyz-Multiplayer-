@@ -38,7 +38,7 @@ def recieve (conn, player):
     print "player %d started playing"%(player)
     data = "no data"
     
-    while data != "exit":
+    while True:
         data = conn.recv(BUFFER_SIZE)
         print data
 
