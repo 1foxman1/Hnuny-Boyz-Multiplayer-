@@ -2,7 +2,7 @@ import socket
 import thread
 
 BUFFER_SIZE=1024
-TCP_IP= socket.gethostbyname(socket.gethostname())
+TCP_IP="25.164.130.160"
 TCP_PORT=3456
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((TCP_IP,TCP_PORT))
